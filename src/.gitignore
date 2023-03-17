@@ -1,0 +1,64 @@
+# .gitignore
+
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio temporary files
+.vs/
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ReSharper
+_ReSharper*/
+*.resharper
+*.resharper.user
+
+# NCrunch
+*.ncrunch*
+ncrunch.db
+*.crunch*.local.xml
+
+# DotCover
+*.dotCover
+
+# NuGet
+packages/
+*.nupkg
+
+# User-specific files
+*.rsuser
+**/*.patch
+**/*.diff
+**/*.DS_Store
+
+# Exclude ImageBase64Encoder.cs from gitignore
+!ImageBase64Encoder.cs
