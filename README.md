@@ -51,7 +51,7 @@ Image image = ImageBase64Encoder.Base64ToImage(base64String);
 // Perform any additional image processing or save it to a file
 image.Save("output_image.png");
 ```
-
+More information about Base64: [https://www.dotnetbros.com/boost-your-web-performance-with-base64-image-encoding/](https://www.dotnetbros.com/boost-your-web-performance-with-base64-image-encoding/)
 ## License
 This project is open source and available under the [MIT License](https://github.com/waltersoto/Com.DotNetBros.ImageBase64Encoder/blob/main/LICENSE).
 
